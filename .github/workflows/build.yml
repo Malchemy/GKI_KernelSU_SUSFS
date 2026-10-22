@@ -992,6 +992,7 @@ jobs:
           enable_config CONFIG_POSIX_MQUEUE
           enable_config CONFIG_IPC_NS
           enable_config CONFIG_PID_NS
+          enable_config CONFIG_USER_NS
           enable_config CONFIG_DEVTMPFS
 
           # 用户命名空间：上游文档列为可选但推荐，用于修复 docker unsafe procfs 报错。
